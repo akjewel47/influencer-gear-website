@@ -1,0 +1,35 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400;1,500&family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+ font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+header{
+ padding: 50px 100px;
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.nav-title{
+width: 243px;
+height: 53px;
+font-size: 1.5rem;
+font-weight: 700;
+
+
+}
+nav > ul{
+ display: flex;
+}
+nav li{
+ list-style: none;
+ margin-right: 20px;
+ font-weight: 600;
+ font-size: 1rem;
+}
+nav li a{
+ text-decoration: none;
+ color: #3A3A3A;
+}
